@@ -52,11 +52,6 @@ docker run --rm -p 8000:8000 taskflow
 | `API_TOKEN` | Jeton exigé pour supprimer une tâche | vide (suppression désactivée) |
 | `NOTIFY_WEBHOOK_URL` | Webhook appelé à chaque création de tâche | vide (désactivé) |
 
-## Équipe
-
-- Waddenn
-- Binôme à compléter
-
 ## Gouvernance du dépôt
 
 Les règles sont préparées dans [ruleset-main.json](docs/ruleset-main.json), mais restent à activer sur GitHub :
@@ -67,7 +62,7 @@ Les règles sont préparées dans [ruleset-main.json](docs/ruleset-main.json), m
 - Force push et suppression de `main` interdits, sans exception pour les admins.
 - Discussions résolues, branche à jour et check `CI OK` vert avant le merge.
 
-Le binôme reste à ajouter dans [CODEOWNERS](.github/CODEOWNERS). La capture du push refusé sera ajoutée après activation des règles.
+La capture du push refusé sera ajoutée après activation des règles.
 
 ## Pipeline CI
 
