@@ -54,6 +54,8 @@ jobs:
           started=$SECONDS
           python -m pip install -r requirements-dev.txt
           echo "Installation Python ${{ matrix.python-version }} : $((SECONDS - started)) s" >> "$GITHUB_STEP_SUMMARY"
+      - name: Vérifier la compatibilité des dépendances
+        run: python -m pip check
       - run: python -m pytest --junitxml=reports/junit.xml
       - name: Conserver le rapport de tests
         if: ${{ always() }}
@@ -64,9 +66,20 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
+  docker:
+    name: Docker build et démarrage
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Construire l’image
+        run: docker build --tag taskflow:ci .
+      - name: Démarrer et vérifier l’API
+        run: bash scripts/smoke-docker.sh
+
   ci-ok:
     name: CI OK
-    needs: [lint, test]
+    needs: [lint, test, docker]
     if: ${{ always() }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
@@ -75,5 +88,6 @@ jobs:
         env:
           LINT_RESULT: ${{ needs.lint.result }}
           TEST_RESULT: ${{ needs.test.result }}
+          DOCKER_RESULT: ${{ needs.docker.result }}
         run: |
-          test "$LINT_RESULT" = success && test "$TEST_RESULT" = success
+          test "$LINT_RESULT" = success && test "$TEST_RESULT" = success && test "$DOCKER_RESULT" = success
