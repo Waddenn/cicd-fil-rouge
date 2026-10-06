@@ -77,3 +77,4 @@ jobs:
           TEST_RESULT: ${{ needs.test.result }}
         run: |
           test "$LINT_RESULT" = success && test "$TEST_RESULT" = success
+# test CODEOWNERS
