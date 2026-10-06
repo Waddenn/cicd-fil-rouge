@@ -73,8 +73,9 @@ Le push direct a été refusé par GitHub. [Sortie de la commande](reports/githu
 Le [workflow](.github/workflows/ci.yml) tourne sur les PR vers `main` et les push sur `main`.
 
 - `lint` : Ruff vérifie le code et le formatage.
-- `test` : Pytest lance les 9 tests sur Python 3.11, 3.12 et 3.13.
-- `CI OK` : vérifie que lint et tous les tests ont réussi. Ce nom reste fixe même si la matrice change ; avec `always()`, un job échoué ou ignoré ne passe pas inaperçu.
+- `test` : vérifie la compatibilité des dépendances avec `pip check`, puis lance les 9 tests sur Python 3.11, 3.12 et 3.13.
+- `docker` : construit l’image, démarre un conteneur et vérifie la réponse de `/health`. Le conteneur est supprimé après le test.
+- `CI OK` : vérifie que lint, les tests et le contrôle Docker ont réussi. Ce nom reste fixe même si la matrice change ; avec `always()`, un job échoué ou ignoré ne passe pas inaperçu.
 
 Le cache pip évite de télécharger à nouveau les dépendances. Les rapports de tests sont conservés en artefacts pendant 14 jours. Un nouveau push annule le run précédent de la même PR.
 
