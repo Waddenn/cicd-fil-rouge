@@ -1,9 +1,6 @@
 # TaskFlow — dépôt fil rouge CI/CD
 
-TaskFlow est une petite API de gestion de tâches écrite en Python avec FastAPI.
-C'est le projet fil rouge du module CI/CD (Mastère DevOps M1, Sup de Vinci) :
-pendant trois jours, vous allez construire autour d'elle un pipeline complet
-qui teste, construit, sécurise et livre l'application.
+API de gestion de tâches en Python avec FastAPI. Projet du cours CI/CD M1 à Sup de Vinci, à partir du [dépôt du professeur](https://github.com/hardymil/cicd-fil-rouge).
 
 ## Lancer l'API en local
 
@@ -57,10 +54,36 @@ docker run --rm -p 8000:8000 taskflow
 
 ## Équipe
 
-<!-- Lab J1 : remplacez par les noms du binôme -->
-- À compléter
+- Waddenn
+- Binôme à compléter
 
 ## Gouvernance du dépôt
 
-<!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
-À compléter.
+Les règles sont préparées dans [ruleset-main.json](docs/ruleset-main.json), mais restent à activer sur GitHub :
+
+- PR et une approbation obligatoires pour relire les changements avant le merge.
+- Nouvelle approbation après un ajout de commit, pour valider la dernière version.
+- Revue des Code Owners sur les workflows, pour contrôler les modifications de la CI.
+- Force push et suppression de `main` interdits, sans exception pour les admins.
+- Discussions résolues, branche à jour et check `CI OK` vert avant le merge.
+
+Le binôme reste à ajouter dans [CODEOWNERS](.github/CODEOWNERS). La capture du push refusé sera ajoutée après activation des règles.
+
+## Pipeline CI
+
+Le [workflow](.github/workflows/ci.yml) tourne sur les PR vers `main` et les push sur `main`.
+
+- `lint` : Ruff vérifie le code et le formatage.
+- `test` : Pytest lance les 9 tests sur Python 3.11, 3.12 et 3.13.
+- `CI OK` : vérifie que lint et tous les tests ont réussi. Ce nom reste fixe même si la matrice change ; avec `always()`, un job échoué ou ignoré ne passe pas inaperçu.
+
+Le cache pip évite de télécharger à nouveau les dépendances. Les rapports de tests sont conservés en artefacts pendant 14 jours. Un nouveau push annule le run précédent de la même PR.
+
+[Premier run réussi sur GitHub Actions](https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37441411424).
+
+À compléter pour le lab : capture de la PR bloquée et comparaison des temps d’installation avec et sans cache.
+
+## Exercices
+
+- [Réponses aux exercices J1](docs/exercices-j1.md)
+- [Étapes des labs GitHub](docs/labs-github.md)

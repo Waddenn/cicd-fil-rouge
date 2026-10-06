@@ -1,0 +1,17 @@
+success, success: accepté
+success, failure: refusé
+success, cancelled: refusé
+success, skipped: refusé
+failure, success: refusé
+failure, failure: refusé
+failure, cancelled: refusé
+failure, skipped: refusé
+cancelled, success: refusé
+cancelled, failure: refusé
+cancelled, cancelled: refusé
+cancelled, skipped: refusé
+skipped, success: refusé
+skipped, failure: refusé
+skipped, cancelled: refusé
+skipped, skipped: refusé
+16 combinaisons vérifiées.
