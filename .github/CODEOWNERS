@@ -1,0 +1,4 @@
+# Le compte doit disposer de droits write sur le fork.
+# Ajouter le binôme quand son identifiant est connu.
+/.github/workflows/ @Waddenn
+/.github/CODEOWNERS @Waddenn

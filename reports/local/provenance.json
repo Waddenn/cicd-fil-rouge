@@ -1,0 +1,6 @@
+{
+  "source": "https://github.com/hardymil/cicd-fil-rouge",
+  "source_commit": "6c19da3f75d13dda726551554dd198176f52c657",
+  "validation_date": "2026-10-06",
+  "scope": "Local uniquement, aucune ex\u00e9cution GitHub Actions"
+}

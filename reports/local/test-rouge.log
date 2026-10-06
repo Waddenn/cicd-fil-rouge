@@ -1,0 +1,25 @@
+F........                                                                [100%]
+=================================== FAILURES ===================================
+____________________________ test_health_returns_ok ____________________________
+
+client = <starlette.testclient.TestClient object at 0x7f75862d6510>
+
+    def test_health_returns_ok(client):
+        response = client.get("/health")
+        assert response.status_code == 200
+>       assert response.json()["status"] == "ko"
+E       AssertionError: assert 'ok' == 'ko'
+E         
+E         - ko
+E         + ok
+
+tests/test_health.py:4: AssertionError
+=============================== warnings summary ===============================
+../../var/home/tom/Dev/ci-cd-m1/.envs/python-3.13/lib/python3.13/site-packages/starlette/testclient.py:40
+  /var/home/tom/Dev/ci-cd-m1/.envs/python-3.13/lib/python3.13/site-packages/starlette/testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+    _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED tests/test_health.py::test_health_returns_ok - AssertionError: assert ...
+1 failed, 8 passed, 1 warning in 0.06s

@@ -57,10 +57,46 @@ docker run --rm -p 8000:8000 taskflow
 
 ## Équipe
 
-<!-- Lab J1 : remplacez par les noms du binôme -->
-- À compléter
+- Compte de travail : `Waddenn`.
+- Binôme : à renseigner avant les invitations et les revues croisées.
 
 ## Gouvernance du dépôt
 
-<!-- Lab J1 : listez les règles activées sur main, pourquoi chacune, et ajoutez la capture du push refusé -->
-À compléter.
+Configuration préparée dans [le modèle de ruleset](docs/ruleset-main.json), à appliquer sur le fork GitHub après publication et premier run de CI. Aucune protection distante n’est attestée par ce fichier seul.
+
+| Règle | Pourquoi |
+| --- | --- |
+| PR obligatoire sur main | Chaque changement passe par un diff relisible et traçable. |
+| Une approbation | Un second membre contrôle le changement avant intégration. |
+| Invalidation des approbations après nouveau commit | La revue doit porter sur la dernière version. |
+| Revue des Code Owners pour les workflows | Les changements des contrôles CI sont eux-mêmes contrôlés. |
+| Interdiction de force push | Empêche la réécriture de l’historique de main. |
+| Interdiction de suppression | Préserve la branche de référence. |
+| Aucun contournement, admins compris | Les garanties s’appliquent à tous. |
+| Résolution des discussions et branche à jour | Évite de fusionner une discussion ouverte ou une intégration obsolète. |
+| Seul check obligatoire : CI OK | Maintient un nom stable malgré l’évolution de la matrice. |
+
+CODEOWNERS désigne actuellement `@Waddenn`. Le binôme devra être ajouté avec le droit Write pour pouvoir approuver les PR de Waddenn qui modifient les workflows. La capture du push refusé reste à produire sur le fork protégé ; aucun refus local n’est présenté comme un refus GitHub.
+
+## Pipeline CI
+
+[Le workflow](.github/workflows/ci.yml) se déclenche sur les PR vers main, les push sur main et manuellement. Il possède uniquement la permission `contents: read`.
+
+- `lint` vérifie les règles Ruff et le formatage.
+- `test` lance Pytest sur Python 3.11, 3.12 et 3.13 en parallèle, sans arrêter les autres versions au premier échec.
+- Le cache pip dépend des deux fichiers de dépendances ; l’installation est exécutée même si le cache manque.
+- Chaque version publie son propre rapport JUnit, conservé 14 jours, y compris après un test en échec.
+- `concurrency` annule les runs dépassés sur la même PR ou branche.
+
+`CI OK` est le seul nom à exiger dans le ruleset et agrège lint et toute la matrice de tests. Son exécution est inconditionnelle avec `always()`, puis il échoue si un résultat n’est pas exactement `success`, y compris lorsqu’un job est ignoré ou annulé.
+
+### Validation et mesures
+
+Les preuves locales se trouvent dans `reports/local/` après exécution de `scripts/validate-local.sh`. Elles vérifient l’application et le formatage ; elles ne prouvent ni l’exécution sur GitHub Actions ni le blocage d’une PR.
+
+| Mesure GitHub Actions | Durée |
+| --- | --- |
+| Installation sans cache restauré | À mesurer sur le fork |
+| Installation avec cache restauré | À mesurer sur le même commit et la même version Python |
+
+La capture de la PR bloquée, les liens de runs et l’artefact téléchargé seront ajoutés après les labs distants. La procédure détaillée est dans [les labs GitHub](docs/labs-github.md), et les réponses théoriques dans [les exercices J1](docs/exercices-j1.md).
