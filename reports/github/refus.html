@@ -1,0 +1,17 @@
+<!doctype html><meta charset="utf-8"><title>Preuves des refus GitHub</title><style>body{margin:40px;font:16px monospace;background:#f6f8fa;color:#1f2328}pre{white-space:pre-wrap;line-height:1.5}</style><h1>Refus GitHub du lab J1</h1><p>Transcription des sorties réelles du 6 octobre 2026. PR #2.</p><pre>Push direct sur main : refus GitHub
+
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: Review all repository rules at https://github.com/Waddenn/cicd-fil-rouge/rules?ref=refs%2Fheads%2Fmain        
+remote: 
+remote: - Changes must be made through a pull request.        
+remote: 
+remote: - Required status check &quot;CI OK&quot; is expected.        
+remote: 
+To https://github.com/Waddenn/cicd-fil-rouge.git
+ ! [remote rejected] 1daf46f9e028ccc75189cb46dcb5f7e55a325014 -&gt; main (push declined due to repository rule violations)
+error: failed to push some refs to &#x27;https://github.com/Waddenn/cicd-fil-rouge.git&#x27;
+
+
+Fusion de la PR #2 : refus API GitHub
+
+{&quot;message&quot;:&quot;Repository rule violations found\n\nAt least 1 approving review is required by reviewers with write access.\n\nRequired status check \&quot;CI OK\&quot; is failing.\n\n&quot;,&quot;documentation_url&quot;:&quot;https://docs.github.com/rest/pulls/pulls#merge-a-pull-request&quot;,&quot;status&quot;:&quot;405&quot;}</pre>

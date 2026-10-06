@@ -1,0 +1,10 @@
+remote: error: GH013: Repository rule violations found for refs/heads/main.        
+remote: Review all repository rules at https://github.com/Waddenn/cicd-fil-rouge/rules?ref=refs%2Fheads%2Fmain        
+remote: 
+remote: - Changes must be made through a pull request.        
+remote: 
+remote: - Required status check "CI OK" is expected.        
+remote: 
+To https://github.com/Waddenn/cicd-fil-rouge.git
+ ! [remote rejected] 1daf46f9e028ccc75189cb46dcb5f7e55a325014 -> main (push declined due to repository rule violations)
+error: failed to push some refs to 'https://github.com/Waddenn/cicd-fil-rouge.git'

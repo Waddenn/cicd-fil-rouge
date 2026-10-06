@@ -1,0 +1,7 @@
+gh: Repository rule violations found
+
+At least 1 approving review is required by reviewers with write access.
+
+Required status check "CI OK" is failing.
+
+ (HTTP 405)
