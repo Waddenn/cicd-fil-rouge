@@ -1,0 +1,1 @@
+{"message":"Repository rule violations found\n\nAt least 1 approving review is required by reviewers with write access.\n\nRequired status check \"CI OK\" is failing.\n\n","documentation_url":"https://docs.github.com/rest/pulls/pulls#merge-a-pull-request","status":"405"}

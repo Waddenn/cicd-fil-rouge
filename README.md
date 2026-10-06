@@ -1,5 +1,7 @@
 # TaskFlow — dépôt fil rouge CI/CD
 
+[![CI](https://github.com/Waddenn/cicd-fil-rouge/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Waddenn/cicd-fil-rouge/actions/workflows/ci.yml)
+
 API de gestion de tâches en Python avec FastAPI. Projet du cours CI/CD M1 à Sup de Vinci, à partir du [dépôt du professeur](https://github.com/hardymil/cicd-fil-rouge).
 
 ## Lancer l'API en local
@@ -54,7 +56,7 @@ docker run --rm -p 8000:8000 taskflow
 
 ## Gouvernance du dépôt
 
-Les règles sont préparées dans [ruleset-main.json](docs/ruleset-main.json), mais restent à activer sur GitHub :
+La [protection de main](https://github.com/Waddenn/cicd-fil-rouge/rules) est active :
 
 - PR et une approbation obligatoires pour relire les changements avant le merge.
 - Nouvelle approbation après un ajout de commit, pour valider la dernière version.
@@ -62,7 +64,9 @@ Les règles sont préparées dans [ruleset-main.json](docs/ruleset-main.json), m
 - Force push et suppression de `main` interdits, sans exception pour les admins.
 - Discussions résolues, branche à jour et check `CI OK` vert avant le merge.
 
-La capture du push refusé sera ajoutée après activation des règles.
+Le push direct a été refusé par GitHub. [Sortie de la commande](reports/github/push-refuse.txt).
+
+![Refus du push et de la fusion, transcription des sorties GitHub](reports/github/refus-github.png)
 
 ## Pipeline CI
 
@@ -76,7 +80,23 @@ Le cache pip évite de télécharger à nouveau les dépendances. Les rapports d
 
 [Premier run réussi sur GitHub Actions](https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37441411424).
 
-À compléter pour le lab : capture de la PR bloquée et comparaison des temps d’installation avec et sans cache.
+### Vérifications du lab
+
+Le test de santé a été volontairement cassé dans la [PR #2](https://github.com/Waddenn/cicd-fil-rouge/pull/2). Les trois versions de Python et `CI OK` ont échoué. GitHub a refusé la fusion ; la PR a ensuite été fermée sans merge.
+
+![Pipeline en échec](reports/github/ci-rouge.png)
+
+Temps de l’étape d’installation sur le même commit (`8cdac98`), sur des runners neufs :
+
+| Python | Sans cache restauré | Avec cache restauré |
+| --- | --- | --- |
+| 3.11 | 6 s | 3 s |
+| 3.12 | 6 s | 8 s |
+| 3.13 | 6 s | 4 s |
+
+Mesures : [sans cache](https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37442392450/attempts/2) et [avec cache](https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37442392450/attempts/3). Une seule comparaison : le cache aide ici sur deux versions, mais ne garantit pas un gain à chaque run.
+
+Le [rapport JUnit téléchargé](reports/github/artefact-python-3.11/junit.xml) contient 9 tests réussis. Les [preuves du lab](docs/labs-github.md) regroupent les résultats.
 
 ## Exercices
 

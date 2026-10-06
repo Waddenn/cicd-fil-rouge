@@ -1,0 +1,1291 @@
+test (Python 3.12)	Set up job	﻿2026-10-06T09:23:37.7014160Z Current runner version: '2.337.0'
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7041395Z ##[group]Runner Image Provisioner
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7042250Z Hosted Compute Agent
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7042897Z Version: 20260901.588
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7043589Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7044307Z Build Date: 2026-09-01T19:56:44Z
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7045033Z Worker ID: {e550df6c-9b7f-4842-9026-4858281c58f0}
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7045782Z Azure Region: centralus
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7046356Z ##[endgroup]
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7047877Z ##[group]Operating System
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7048604Z Ubuntu
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7049198Z 24.04.5
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7049706Z LTS
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7050406Z ##[endgroup]
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7051081Z ##[group]Runner Image
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7051680Z Image: ubuntu-24.04
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7052557Z Version: 20260927.320.1
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7053657Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7055483Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7056446Z ##[endgroup]
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7058120Z ##[group]GITHUB_TOKEN Permissions
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7060436Z Contents: read
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7061141Z Metadata: read
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7061767Z ##[endgroup]
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7064179Z Secret source: Actions
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7065232Z Cache mode: write
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7066215Z Prepare workflow directory
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7452474Z Prepare all required actions
+test (Python 3.12)	Set up job	2026-10-06T09:23:37.7523013Z Getting action download info
+test (Python 3.12)	Set up job	2026-10-06T09:23:38.0265763Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+test (Python 3.12)	Set up job	2026-10-06T09:23:38.1615885Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+test (Python 3.12)	Set up job	2026-10-06T09:23:38.2901051Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+test (Python 3.12)	Set up job	2026-10-06T09:23:38.5052894Z Complete job name: test (Python 3.12)
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:38.5827834Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5828921Z with:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5829379Z   repository: Waddenn/cicd-fil-rouge
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5833395Z   token: ***
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5833846Z   ssh-strict: true
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5834326Z   ssh-user: git
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5834779Z   persist-credentials: true
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5835269Z   clean: true
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5835711Z   sparse-checkout-cone-mode: true
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5836219Z   fetch-depth: 1
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5836647Z   fetch-tags: false
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5837079Z   show-progress: true
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5837521Z   lfs: false
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5837928Z   submodules: false
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5838365Z   set-safe-directory: true
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5838866Z   allow-unsafe-pr-checkout: false
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5839670Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6830602Z Syncing repository: Waddenn/cicd-fil-rouge
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6832738Z ##[group]Getting Git version info
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6833816Z Working directory is '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6842063Z [command]/usr/bin/git version
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6969879Z git version 2.55.0
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6996369Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7009367Z Temporarily overriding HOME='/home/runner/work/_temp/b7482f89-587a-4a4a-8b3f-b9a39066808e' before making global git config changes
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7011379Z Adding repository directory to the temporary git global config as a safe directory
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7017793Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7072849Z Deleting the contents of '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7076374Z ##[group]Determining repository object format
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7078295Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7079053Z ##[group]Initializing the repository
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7082982Z [command]/usr/bin/git init /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7241708Z hint: Using 'master' as the name for the initial branch. This default branch name
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7243580Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7245330Z hint: to use in all of your new repositories, which will suppress this warning,
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7246674Z hint: call:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7247467Z hint:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7248362Z hint: 	git config --global init.defaultBranch <name>
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7249534Z hint:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7250947Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7252617Z hint: 'development'. The just-created branch can be renamed via this command:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7254252Z hint:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7255132Z hint: 	git branch -m <name>
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7256148Z hint:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7257315Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7259287Z Initialized empty Git repository in /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7262149Z [command]/usr/bin/git remote add origin https://github.com/Waddenn/cicd-fil-rouge
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7332351Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7333826Z ##[group]Disabling automatic garbage collection
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7348409Z [command]/usr/bin/git config --local gc.auto 0
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7398459Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7399913Z ##[group]Setting up auth
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7402143Z Removing SSH command configuration
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7406862Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7502573Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7916031Z Removing HTTP extra header
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7922491Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7956832Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8178264Z Removing includeIf entries pointing to credentials config files
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8183743Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8218772Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8452617Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8492467Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path /home/runner/work/_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8528316Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8568746Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8607120Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8638228Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8638984Z ##[group]Fetching the repository
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8644890Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +8cdac98ba655cdffc296c2090381fdd791ec8904:refs/remotes/origin/main
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2077983Z From https://github.com/Waddenn/cicd-fil-rouge
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2079178Z  * [new ref]         8cdac98ba655cdffc296c2090381fdd791ec8904 -> origin/main
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2088311Z [command]/usr/bin/git branch --list --remote origin/main
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2119081Z   origin/main
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2132409Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2163951Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2176389Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2177684Z ##[group]Determining the checkout info
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2179127Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2192002Z [command]/usr/bin/git sparse-checkout disable
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2242164Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2282305Z ##[group]Checking out the ref
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2287424Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2375246Z Switched to a new branch 'main'
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2382521Z branch 'main' set up to track 'origin/main'.
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2390829Z ##[endgroup]
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2446678Z [command]/usr/bin/git log -1 --format=%H
+test (Python 3.12)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2484815Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:39.2858419Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2860315Z with:
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2861165Z   python-version: 3.12
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2862108Z   cache: pip
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2863298Z   cache-dependency-path: requirements.txt
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	requirements-dev.txt
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2864831Z   check-latest: false
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2874758Z   token: ***
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2875667Z   update-environment: true
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2876710Z   allow-prereleases: false
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2877736Z   freethreaded: false
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.2878672Z ##[endgroup]
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.4121784Z ##[group]Installed versions
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.4203642Z Successfully set up CPython (3.12.14)
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.4206399Z ##[endgroup]
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.4651876Z [command]/opt/hostedtoolcache/Python/3.12.14/x64/bin/pip cache dir
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.4433184Z /home/runner/.cache/pip
+test (Python 3.12)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.6002933Z pip cache is not found
+test (Python 3.12)	Installer les dépendances	﻿2026-10-06T09:23:40.6164376Z ##[group]Run started=$SECONDS
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6164837Z ^[[36;1mstarted=$SECONDS^[[0m
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6165234Z ^[[36;1mpython -m pip install -r requirements-dev.txt^[[0m
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6165797Z ^[[36;1mecho "Installation Python 3.12 : $((SECONDS - started)) s" >> "$GITHUB_STEP_SUMMARY"^[[0m
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6468252Z shell: /usr/bin/bash -e {0}
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6468619Z env:
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6468954Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6469499Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6470314Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6470851Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6471323Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6471792Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:40.6472185Z ##[endgroup]
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:41.9905186Z Collecting fastapi==0.115.6 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.0724563Z   Downloading fastapi-0.115.6-py3-none-any.whl.metadata (27 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.1194902Z Collecting uvicorn==0.32.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.1345696Z   Downloading uvicorn-0.32.1-py3-none-any.whl.metadata (6.6 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.1710413Z Collecting requests==2.25.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.1866066Z   Downloading requests-2.25.1-py2.py3-none-any.whl.metadata (4.2 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.2240834Z Collecting pytest==8.3.4 (from -r requirements-dev.txt (line 2))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.2393218Z   Downloading pytest-8.3.4-py3-none-any.whl.metadata (7.5 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.2782464Z Collecting httpx==0.28.1 (from -r requirements-dev.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.2934326Z   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.6579418Z Collecting ruff==0.8.4 (from -r requirements-dev.txt (line 4))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.6734086Z   Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.7118400Z Collecting starlette<0.42.0,>=0.40.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.7270174Z   Downloading starlette-0.41.3-py3-none-any.whl.metadata (6.0 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.8388920Z Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.8542445Z   Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.9027753Z Collecting typing-extensions>=4.8.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.9179051Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.9466368Z Collecting click>=7.0 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.9617908Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.9847108Z Collecting h11>=0.8 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:42.9999289Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.0424423Z Collecting chardet<5,>=3.0.2 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.0575308Z   Downloading chardet-4.0.0-py2.py3-none-any.whl.metadata (3.5 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.0831022Z Collecting idna<3,>=2.5 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.0981736Z   Downloading idna-2.10-py2.py3-none-any.whl.metadata (9.1 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.1324319Z Collecting urllib3<1.27,>=1.21.1 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.1478665Z   Downloading urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.1844038Z Collecting certifi>=2017.4.17 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.1997743Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.2238728Z Collecting iniconfig (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.2388975Z   Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.2675257Z Collecting packaging (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.2827680Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.3067711Z Collecting pluggy<2,>=1.5 (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.3219133Z   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.3528325Z Collecting anyio (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.3678835Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.3951875Z Collecting httpcore==1.* (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.4105809Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.4377959Z Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:43.4534794Z   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.0982501Z Collecting pydantic-core==2.46.5 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.1140550Z   Downloading pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.1383657Z Collecting typing-inspection>=0.4.2 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.1534647Z   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.1807015Z Downloading fastapi-0.115.6-py3-none-any.whl (94 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.2005774Z Downloading uvicorn-0.32.1-py3-none-any.whl (63 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.2189730Z Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.2372543Z Downloading pytest-8.3.4-py3-none-any.whl (343 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.2732553Z Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.2908820Z Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.2 MB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.4138216Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 93.3 MB/s  0:00:00
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.4290405Z Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.4467300Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.4644130Z Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.4827177Z Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.4999196Z Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.5185053Z Downloading pydantic_core-2.46.5-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.5275221Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 303.7 MB/s  0:00:00
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.5537290Z Downloading starlette-0.41.3-py3-none-any.whl (73 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.5760461Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.5937417Z Downloading urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.6111902Z Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.6283435Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.6456039Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.6630236Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.6802667Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.6975194Z Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.7145751Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.7315281Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:44.9763807Z Installing collected packages: urllib3, typing-extensions, ruff, pluggy, packaging, iniconfig, idna, h11, click, chardet, certifi, annotated-types, uvicorn, typing-inspection, requests, pytest, pydantic-core, httpcore, anyio, starlette, pydantic, httpx, fastapi
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:46.8576100Z 
+test (Python 3.12)	Installer les dépendances	2026-10-06T09:23:46.8603486Z Successfully installed annotated-types-0.8.0 anyio-4.15.1 certifi-2026.7.22 chardet-4.0.0 click-8.5.0 fastapi-0.115.6 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-2.10 iniconfig-2.3.0 packaging-26.3 pluggy-1.6.0 pydantic-2.13.5 pydantic-core-2.46.5 pytest-8.3.4 requests-2.25.1 ruff-0.8.4 starlette-0.41.3 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-1.26.20 uvicorn-0.32.1
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	﻿2026-10-06T09:23:46.9538782Z ##[group]Run python -m pytest --junitxml=reports/junit.xml
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9539245Z ^[[36;1mpython -m pytest --junitxml=reports/junit.xml^[[0m
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9604700Z shell: /usr/bin/bash -e {0}
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9604954Z env:
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9605394Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9605833Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9606270Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9606652Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9607036Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9607425Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.9607741Z ##[endgroup]
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4524325Z ============================= test session starts ==============================
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4525028Z platform linux -- Python 3.12.14, pytest-8.3.4, pluggy-1.6.0
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4525540Z rootdir: /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4525882Z configfile: pyproject.toml
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4526123Z testpaths: tests
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4526334Z plugins: anyio-4.15.1
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4526564Z collected 9 items
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4526692Z 
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.4683823Z tests/test_health.py .                                                   [ 11%]
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5317286Z tests/test_tasks.py ........                                             [100%]
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5317717Z 
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5317906Z =============================== warnings summary ===============================
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5318595Z ../../../../../opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/starlette/testclient.py:40
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5320097Z   /opt/hostedtoolcache/Python/3.12.14/x64/lib/python3.12/site-packages/starlette/testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5321630Z     _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5322098Z 
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5322360Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5323066Z - generated xml file: /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/reports/junit.xml -
+test (Python 3.12)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.5323682Z ========================= 9 passed, 1 warning in 0.10s =========================
+test (Python 3.12)	Conserver le rapport de tests	﻿2026-10-06T09:23:48.5923310Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5923756Z with:
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5923952Z   name: pytest-3.12
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5924172Z   path: reports/junit.xml
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5924419Z   if-no-files-found: error
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5924650Z   retention-days: 14
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5924865Z   compression-level: 6
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5925073Z   overwrite: false
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5925279Z   include-hidden-files: false
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5925503Z env:
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5925751Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5926174Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5926603Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5926977Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5927353Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5927735Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.5928076Z ##[endgroup]
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.7602187Z (node:2391) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.7602953Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.7650747Z With the provided path, there will be 1 file uploaded
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.7659073Z Artifact name is valid!
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:48.7660264Z Root directory input is valid!
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.0199806Z Beginning upload of artifact content to blob storage
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.0385405Z (node:2391) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.1644753Z Uploaded bytes 449
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.2038235Z Finished uploading artifact content to blob storage!
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.2039288Z SHA256 digest of uploaded artifact zip is 605aad0545a2257a4b70316e1e1afd5e48aedcee9063a2657cb8457c427059f6
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.2042253Z Finalizing artifact upload
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.4500808Z Artifact pytest-3.12.zip successfully finalized. Artifact ID 11402055945
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.4501534Z Artifact pytest-3.12 has been successfully uploaded! Final size is 449 bytes. Artifact ID is 11402055945
+test (Python 3.12)	Conserver le rapport de tests	2026-10-06T09:23:49.4508540Z Artifact download URL: https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37442392450/artifacts/11402055945
+test (Python 3.12)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:49.4680965Z Post job cleanup.
+test (Python 3.12)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:49.6005097Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/cicd-fil-rouge/cicd-fil-rouge --files-from manifest.txt --use-compress-program zstdmt
+test (Python 3.12)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:50.4473356Z Sent 18671314 of 18671314 (100.0%), 27.1 MBs/sec
+test (Python 3.12)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:50.6022155Z Cache saved with the key: setup-python-Linux-x64-24.04-Ubuntu-python-3.12.14-pip-0cc5f5eab56f1237ba4586eceac9729a233f92348fa5d801507e7755cbf34434
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:50.6168335Z Post job cleanup.
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.6983084Z [command]/usr/bin/git version
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7035913Z git version 2.55.0
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7105042Z Temporarily overriding HOME='/home/runner/work/_temp/8e2ea515-c750-4899-85a2-df089e78c0bf' before making global git config changes
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7106625Z Adding repository directory to the temporary git global config as a safe directory
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7110370Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7143908Z Removing SSH command configuration
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7151091Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7211367Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7454648Z Removing HTTP extra header
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7481145Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7500324Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7749092Z Removing includeIf entries pointing to credentials config files
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7756302Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7799427Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7801157Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7802599Z includeif.gitdir:/github/workspace/.git.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7803685Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7811536Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7840539Z /home/runner/work/_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7853459Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-4e25b74c\-a9b9\-44ce\-81c4\-9d3eaea84da3\.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7898624Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7929891Z /home/runner/work/_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7948294Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-4e25b74c\-a9b9\-44ce\-81c4\-9d3eaea84da3\.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.7986492Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.8013337Z /github/runner_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.8022097Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-4e25b74c\-a9b9\-44ce\-81c4\-9d3eaea84da3\.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.8060982Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.8087770Z /github/runner_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.8097084Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-4e25b74c\-a9b9\-44ce\-81c4\-9d3eaea84da3\.config
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.8134703Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test (Python 3.12)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:50.8379267Z Removing credentials config '/home/runner/work/_temp/git-credentials-4e25b74c-a9b9-44ce-81c4-9d3eaea84da3.config'
+test (Python 3.12)	Complete job	﻿2026-10-06T09:23:50.8523037Z Cleaning up orphan processes
+test (Python 3.12)	Complete job	2026-10-06T09:23:50.8805161Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+test (Python 3.11)	Set up job	﻿2026-10-06T09:23:36.9460243Z Current runner version: '2.337.0'
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9497439Z ##[group]Runner Image Provisioner
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9499122Z Hosted Compute Agent
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9500239Z Version: 20260901.588
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9501448Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9502846Z Build Date: 2026-09-01T19:56:44Z
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9504268Z Worker ID: {48c881d7-0424-4d9d-ac0b-c5e8bcb4a3dd}
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9505484Z Azure Region: eastus2
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9506965Z ##[endgroup]
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9509735Z ##[group]Operating System
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9510950Z Ubuntu
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9511936Z 24.04.5
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9512874Z LTS
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9513895Z ##[endgroup]
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9514835Z ##[group]Runner Image
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9515990Z Image: ubuntu-24.04
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9517026Z Version: 20260927.320.1
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9519304Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9522626Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9524573Z ##[endgroup]
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9526369Z ##[group]GITHUB_TOKEN Permissions
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9529652Z Contents: read
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9530660Z Metadata: read
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9531751Z ##[endgroup]
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9534842Z Secret source: Actions
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9536653Z Cache mode: write
+test (Python 3.11)	Set up job	2026-10-06T09:23:36.9538363Z Prepare workflow directory
+test (Python 3.11)	Set up job	2026-10-06T09:23:37.0038797Z Prepare all required actions
+test (Python 3.11)	Set up job	2026-10-06T09:23:37.0115967Z Getting action download info
+test (Python 3.11)	Set up job	2026-10-06T09:23:37.1930443Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+test (Python 3.11)	Set up job	2026-10-06T09:23:37.2956360Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+test (Python 3.11)	Set up job	2026-10-06T09:23:37.3716361Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+test (Python 3.11)	Set up job	2026-10-06T09:23:37.5930080Z Complete job name: test (Python 3.11)
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:37.6684246Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6685482Z with:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6685962Z   repository: Waddenn/cicd-fil-rouge
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6689990Z   token: ***
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6690446Z   ssh-strict: true
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6690904Z   ssh-user: git
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6691361Z   persist-credentials: true
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6691864Z   clean: true
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6692320Z   sparse-checkout-cone-mode: true
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6692860Z   fetch-depth: 1
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6693302Z   fetch-tags: false
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6693858Z   show-progress: true
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6694320Z   lfs: false
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6694746Z   submodules: false
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6695207Z   set-safe-directory: true
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6695719Z   allow-unsafe-pr-checkout: false
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.6696878Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7673869Z Syncing repository: Waddenn/cicd-fil-rouge
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7676371Z ##[group]Getting Git version info
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7677723Z Working directory is '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7679767Z [command]/usr/bin/git version
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7788846Z git version 2.55.0
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7819612Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7831709Z Temporarily overriding HOME='/home/runner/work/_temp/2ede4d52-96b3-43ab-95a5-9aafd7fa1ca8' before making global git config changes
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7833994Z Adding repository directory to the temporary git global config as a safe directory
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7840718Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7896882Z Deleting the contents of '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7900841Z ##[group]Determining repository object format
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7902818Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7904201Z ##[group]Initializing the repository
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.7906703Z [command]/usr/bin/git init /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8034927Z hint: Using 'master' as the name for the initial branch. This default branch name
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8036579Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8040692Z hint: to use in all of your new repositories, which will suppress this warning,
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8042498Z hint: call:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8043590Z hint:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8044874Z hint: 	git config --global init.defaultBranch <name>
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8046247Z hint:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8047500Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8049815Z hint: 'development'. The just-created branch can be renamed via this command:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8051665Z hint:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8052755Z hint: 	git branch -m <name>
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8053917Z hint:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8055210Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8057360Z Initialized empty Git repository in /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8061032Z [command]/usr/bin/git remote add origin https://github.com/Waddenn/cicd-fil-rouge
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8113939Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8116766Z ##[group]Disabling automatic garbage collection
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8120484Z [command]/usr/bin/git config --local gc.auto 0
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8170086Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8170994Z ##[group]Setting up auth
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8171808Z Removing SSH command configuration
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8177781Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8219176Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8623679Z Removing HTTP extra header
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8629571Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8666736Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8886701Z Removing includeIf entries pointing to credentials config files
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8892533Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.8928933Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9190189Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9233587Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path /home/runner/work/_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9270062Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9311413Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9352475Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9387884Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9389448Z ##[group]Fetching the repository
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:37.9397866Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +8cdac98ba655cdffc296c2090381fdd791ec8904:refs/remotes/origin/main
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1873360Z From https://github.com/Waddenn/cicd-fil-rouge
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1875329Z  * [new ref]         8cdac98ba655cdffc296c2090381fdd791ec8904 -> origin/main
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1885337Z [command]/usr/bin/git branch --list --remote origin/main
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1914902Z   origin/main
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1923028Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1949232Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1952982Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1953835Z ##[group]Determining the checkout info
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1954764Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.1958078Z [command]/usr/bin/git sparse-checkout disable
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2011016Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2045521Z ##[group]Checking out the ref
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2049502Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2150652Z Switched to a new branch 'main'
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2156208Z branch 'main' set up to track 'origin/main'.
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2164437Z ##[endgroup]
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2215189Z [command]/usr/bin/git log -1 --format=%H
+test (Python 3.11)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.2245777Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:38.2540242Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2541073Z with:
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2541498Z   python-version: 3.11
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2541980Z   cache: pip
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2542573Z   cache-dependency-path: requirements.txt
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	requirements-dev.txt
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2543287Z   check-latest: false
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2546968Z   token: ***
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2547418Z   update-environment: true
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2547933Z   allow-prereleases: false
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2548735Z   freethreaded: false
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.2549207Z ##[endgroup]
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.3797871Z ##[group]Installed versions
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.3881164Z Successfully set up CPython (3.11.16)
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.3887594Z ##[endgroup]
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:38.4311636Z [command]/opt/hostedtoolcache/Python/3.11.16/x64/bin/pip cache dir
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.8503727Z /home/runner/.cache/pip
+test (Python 3.11)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:39.9588682Z pip cache is not found
+test (Python 3.11)	Installer les dépendances	﻿2026-10-06T09:23:39.9749613Z ##[group]Run started=$SECONDS
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:39.9750083Z ^[[36;1mstarted=$SECONDS^[[0m
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:39.9750461Z ^[[36;1mpython -m pip install -r requirements-dev.txt^[[0m
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:39.9751016Z ^[[36;1mecho "Installation Python 3.11 : $((SECONDS - started)) s" >> "$GITHUB_STEP_SUMMARY"^[[0m
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0051012Z shell: /usr/bin/bash -e {0}
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0051517Z env:
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0051965Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0052669Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0053358Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0054004Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0054631Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0055273Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:40.0055780Z ##[endgroup]
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.2397147Z Collecting fastapi==0.115.6 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.3026826Z   Downloading fastapi-0.115.6-py3-none-any.whl.metadata (27 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.3487186Z Collecting uvicorn==0.32.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.3567210Z   Downloading uvicorn-0.32.1-py3-none-any.whl.metadata (6.6 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.3832713Z Collecting requests==2.25.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.3910155Z   Downloading requests-2.25.1-py2.py3-none-any.whl.metadata (4.2 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.4224317Z Collecting pytest==8.3.4 (from -r requirements-dev.txt (line 2))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.4302783Z   Downloading pytest-8.3.4-py3-none-any.whl.metadata (7.5 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.4511961Z Collecting httpx==0.28.1 (from -r requirements-dev.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.4591472Z   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.8021783Z Collecting ruff==0.8.4 (from -r requirements-dev.txt (line 4))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.8113591Z   Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.8401751Z Collecting starlette<0.42.0,>=0.40.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.8488496Z   Downloading starlette-0.41.3-py3-none-any.whl.metadata (6.0 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.9774902Z Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:41.9853893Z   Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.0146997Z Collecting typing-extensions>=4.8.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.0225567Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.0426825Z Collecting click>=7.0 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.0504162Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.0657021Z Collecting h11>=0.8 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.0735214Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.1101893Z Collecting chardet<5,>=3.0.2 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.1181736Z   Downloading chardet-4.0.0-py2.py3-none-any.whl.metadata (3.5 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.3465072Z Collecting idna<3,>=2.5 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.3547059Z   Downloading idna-2.10-py2.py3-none-any.whl.metadata (9.1 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.3781692Z Collecting urllib3<1.27,>=1.21.1 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.3860644Z   Downloading urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4111910Z Collecting certifi>=2017.4.17 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4190853Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4336481Z Collecting iniconfig (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4412736Z   Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4604770Z Collecting packaging (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4684015Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4837285Z Collecting pluggy<2,>=1.5 (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.4917857Z   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.5142755Z Collecting anyio (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.5250158Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.5444955Z Collecting httpcore==1.* (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.5522740Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.5749495Z Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:42.5833881Z   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.2575578Z Collecting pydantic-core==2.46.5 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.2659590Z   Downloading pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.2814372Z Collecting typing-inspection>=0.4.2 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.2893813Z   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.3088319Z Downloading fastapi-0.115.6-py3-none-any.whl (94 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.3191528Z Downloading uvicorn-0.32.1-py3-none-any.whl (63 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.3286349Z Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.3382896Z Downloading pytest-8.3.4-py3-none-any.whl (343 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.3545215Z Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.3641802Z Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.2 MB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4262651Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 186.2 MB/s  0:00:00
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4342948Z Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4447485Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4544722Z Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4637899Z Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4732537Z Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4840296Z Downloading pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.4922802Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 302.5 MB/s  0:00:00
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5000844Z Downloading starlette-0.41.3-py3-none-any.whl (73 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5097695Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5195188Z Downloading urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5290351Z Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5382065Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5479214Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5575001Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5668538Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5763759Z Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5856371Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.5953034Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:43.8400049Z Installing collected packages: urllib3, typing-extensions, ruff, pluggy, packaging, iniconfig, idna, h11, click, chardet, certifi, annotated-types, uvicorn, typing-inspection, requests, pytest, pydantic-core, httpcore, anyio, starlette, pydantic, httpx, fastapi
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:45.3691338Z 
+test (Python 3.11)	Installer les dépendances	2026-10-06T09:23:45.3709428Z Successfully installed annotated-types-0.8.0 anyio-4.15.1 certifi-2026.7.22 chardet-4.0.0 click-8.5.0 fastapi-0.115.6 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-2.10 iniconfig-2.3.0 packaging-26.3 pluggy-1.6.0 pydantic-2.13.5 pydantic-core-2.46.5 pytest-8.3.4 requests-2.25.1 ruff-0.8.4 starlette-0.41.3 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-1.26.20 uvicorn-0.32.1
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	﻿2026-10-06T09:23:45.4711021Z ##[group]Run python -m pytest --junitxml=reports/junit.xml
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4711486Z ^[[36;1mpython -m pytest --junitxml=reports/junit.xml^[[0m
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4780013Z shell: /usr/bin/bash -e {0}
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4780299Z env:
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4780749Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4781207Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4781645Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4782041Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4782444Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4782848Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:45.4783176Z ##[endgroup]
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5109308Z ============================= test session starts ==============================
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5110140Z platform linux -- Python 3.11.16, pytest-8.3.4, pluggy-1.6.0
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5110738Z rootdir: /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5111184Z configfile: pyproject.toml
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5111489Z testpaths: tests
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5111758Z plugins: anyio-4.15.1
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5112045Z collected 9 items
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5112204Z 
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.5427052Z tests/test_health.py .                                                   [ 11%]
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6092656Z tests/test_tasks.py ........                                             [100%]
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6093134Z 
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6093363Z =============================== warnings summary ===============================
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6094187Z ../../../../../opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/starlette/testclient.py:40
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6096265Z   /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/starlette/testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6097946Z     _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6098837Z 
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6099157Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6100016Z - generated xml file: /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/reports/junit.xml -
+test (Python 3.11)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:46.6100769Z ========================= 9 passed, 1 warning in 0.11s =========================
+test (Python 3.11)	Conserver le rapport de tests	﻿2026-10-06T09:23:46.6786077Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6786519Z with:
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6786716Z   name: pytest-3.11
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6786941Z   path: reports/junit.xml
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6787178Z   if-no-files-found: error
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6787409Z   retention-days: 14
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6787629Z   compression-level: 6
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6787843Z   overwrite: false
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6788053Z   include-hidden-files: false
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6788500Z env:
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6788768Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6789203Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib/pkgconfig
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6789647Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6790031Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6790410Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.16/x64
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6790816Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.16/x64/lib
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.6791177Z ##[endgroup]
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.8466455Z (node:2376) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.8467304Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.8523730Z With the provided path, there will be 1 file uploaded
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.8524785Z Artifact name is valid!
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:46.8525195Z Root directory input is valid!
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.0545266Z Beginning upload of artifact content to blob storage
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.0745143Z (node:2376) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.1159174Z Uploaded bytes 451
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.1352131Z Finished uploading artifact content to blob storage!
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.1353786Z SHA256 digest of uploaded artifact zip is b4789b55caa1645707347db5eb92314391afe65011540b6873c59573f403a252
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.1356094Z Finalizing artifact upload
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.3386182Z Artifact pytest-3.11.zip successfully finalized. Artifact ID 11401214664
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.3387213Z Artifact pytest-3.11 has been successfully uploaded! Final size is 451 bytes. Artifact ID is 11401214664
+test (Python 3.11)	Conserver le rapport de tests	2026-10-06T09:23:47.3393845Z Artifact download URL: https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37442392450/artifacts/11401214664
+test (Python 3.11)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:47.3579762Z Post job cleanup.
+test (Python 3.11)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:47.4917255Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/cicd-fil-rouge/cicd-fil-rouge --files-from manifest.txt --use-compress-program zstdmt
+test (Python 3.11)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:48.0767580Z Sent 18662120 of 18662120 (100.0%), 41.1 MBs/sec
+test (Python 3.11)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:48.1733093Z Cache saved with the key: setup-python-Linux-x64-24.04-Ubuntu-python-3.11.16-pip-0cc5f5eab56f1237ba4586eceac9729a233f92348fa5d801507e7755cbf34434
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:48.1871863Z Post job cleanup.
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2712890Z [command]/usr/bin/git version
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2800481Z git version 2.55.0
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2846086Z Temporarily overriding HOME='/home/runner/work/_temp/e10e88ab-1de8-428b-817f-53793e19be0f' before making global git config changes
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2847878Z Adding repository directory to the temporary git global config as a safe directory
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2853189Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2891077Z Removing SSH command configuration
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2900789Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.2945127Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3214226Z Removing HTTP extra header
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3219077Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3262317Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3514046Z Removing includeIf entries pointing to credentials config files
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3522045Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3570166Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3573013Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3574446Z includeif.gitdir:/github/workspace/.git.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3576294Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3578482Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3605142Z /home/runner/work/_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3615777Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-9d677c9c\-0d08\-49fb\-995f\-7fe13390d572\.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3662460Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3692797Z /home/runner/work/_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3711788Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-9d677c9c\-0d08\-49fb\-995f\-7fe13390d572\.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3751317Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3779449Z /github/runner_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3787597Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-9d677c9c\-0d08\-49fb\-995f\-7fe13390d572\.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3828845Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3857926Z /github/runner_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3867812Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-9d677c9c\-0d08\-49fb\-995f\-7fe13390d572\.config
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.3914871Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test (Python 3.11)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:48.4164023Z Removing credentials config '/home/runner/work/_temp/git-credentials-9d677c9c-0d08-49fb-995f-7fe13390d572.config'
+test (Python 3.11)	Complete job	﻿2026-10-06T09:23:48.4343083Z Cleaning up orphan processes
+test (Python 3.11)	Complete job	2026-10-06T09:23:48.4609952Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+lint	Set up job	﻿2026-10-06T09:23:37.2408888Z Current runner version: '2.337.0'
+lint	Set up job	2026-10-06T09:23:37.2439034Z ##[group]Runner Image Provisioner
+lint	Set up job	2026-10-06T09:23:37.2440096Z Hosted Compute Agent
+lint	Set up job	2026-10-06T09:23:37.2440730Z Version: 20260901.588
+lint	Set up job	2026-10-06T09:23:37.2441391Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+lint	Set up job	2026-10-06T09:23:37.2442152Z Build Date: 2026-09-01T19:56:44Z
+lint	Set up job	2026-10-06T09:23:37.2442791Z Worker ID: {3d4242e5-5b02-4099-83d5-871c009750f6}
+lint	Set up job	2026-10-06T09:23:37.2443420Z Azure Region: westus3
+lint	Set up job	2026-10-06T09:23:37.2444031Z ##[endgroup]
+lint	Set up job	2026-10-06T09:23:37.2445387Z ##[group]Operating System
+lint	Set up job	2026-10-06T09:23:37.2445979Z Ubuntu
+lint	Set up job	2026-10-06T09:23:37.2446453Z 24.04.5
+lint	Set up job	2026-10-06T09:23:37.2446913Z LTS
+lint	Set up job	2026-10-06T09:23:37.2447403Z ##[endgroup]
+lint	Set up job	2026-10-06T09:23:37.2447961Z ##[group]Runner Image
+lint	Set up job	2026-10-06T09:23:37.2448518Z Image: ubuntu-24.04
+lint	Set up job	2026-10-06T09:23:37.2449037Z Version: 20260927.320.1
+lint	Set up job	2026-10-06T09:23:37.2450244Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+lint	Set up job	2026-10-06T09:23:37.2451981Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+lint	Set up job	2026-10-06T09:23:37.2452890Z ##[endgroup]
+lint	Set up job	2026-10-06T09:23:37.2453896Z ##[group]GITHUB_TOKEN Permissions
+lint	Set up job	2026-10-06T09:23:37.2456045Z Contents: read
+lint	Set up job	2026-10-06T09:23:37.2456622Z Metadata: read
+lint	Set up job	2026-10-06T09:23:37.2457485Z ##[endgroup]
+lint	Set up job	2026-10-06T09:23:37.2459808Z Secret source: Actions
+lint	Set up job	2026-10-06T09:23:37.2460712Z Cache mode: write
+lint	Set up job	2026-10-06T09:23:37.2461425Z Prepare workflow directory
+lint	Set up job	2026-10-06T09:23:37.2884290Z Prepare all required actions
+lint	Set up job	2026-10-06T09:23:37.2918999Z Getting action download info
+lint	Set up job	2026-10-06T09:23:37.5947231Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+lint	Set up job	2026-10-06T09:23:37.9167518Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+lint	Set up job	2026-10-06T09:23:38.3518174Z Complete job name: lint
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:38.4032110Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4032749Z with:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4033029Z   repository: Waddenn/cicd-fil-rouge
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4035325Z   token: ***
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4035585Z   ssh-strict: true
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4035850Z   ssh-user: git
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4036123Z   persist-credentials: true
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4036414Z   clean: true
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4036693Z   sparse-checkout-cone-mode: true
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4037008Z   fetch-depth: 1
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4037269Z   fetch-tags: false
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4037541Z   show-progress: true
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4037822Z   lfs: false
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4038073Z   submodules: false
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4038371Z   set-safe-directory: true
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4038675Z   allow-unsafe-pr-checkout: false
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4039061Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4784673Z Syncing repository: Waddenn/cicd-fil-rouge
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4786354Z ##[group]Getting Git version info
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4786991Z Working directory is '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4787762Z [command]/usr/bin/git version
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4847221Z git version 2.55.0
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4862161Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4872912Z Temporarily overriding HOME='/home/runner/work/_temp/3bdca709-1333-468c-9494-8625e2d1dbd5' before making global git config changes
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4874387Z Adding repository directory to the temporary git global config as a safe directory
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.4878482Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5565444Z Deleting the contents of '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5568539Z ##[group]Determining repository object format
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5570137Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5570871Z ##[group]Initializing the repository
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.5574397Z [command]/usr/bin/git init /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6786692Z hint: Using 'master' as the name for the initial branch. This default branch name
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6788810Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6790604Z hint: to use in all of your new repositories, which will suppress this warning,
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6791995Z hint: call:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6792811Z hint:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6793752Z hint: 	git config --global init.defaultBranch <name>
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6794905Z hint:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6795940Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6797589Z hint: 'development'. The just-created branch can be renamed via this command:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6799038Z hint:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6800051Z hint: 	git branch -m <name>
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6800950Z hint:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6802157Z hint: Disable this message with "git config set advice.defaultBranchName false"
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6804295Z Initialized empty Git repository in /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.6808260Z [command]/usr/bin/git remote add origin https://github.com/Waddenn/cicd-fil-rouge
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7361301Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7362421Z ##[group]Disabling automatic garbage collection
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7363615Z [command]/usr/bin/git config --local gc.auto 0
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7949883Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7951474Z ##[group]Setting up auth
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7952466Z Removing SSH command configuration
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7954460Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.7989717Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8285925Z Removing HTTP extra header
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8290580Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8322149Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8498795Z Removing includeIf entries pointing to credentials config files
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8502740Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8534695Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.8731155Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:38.9224364Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path /home/runner/work/_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.0445017Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.1539353Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.1791234Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2028460Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2030041Z ##[group]Fetching the repository
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.2034177Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +8cdac98ba655cdffc296c2090381fdd791ec8904:refs/remotes/origin/main
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7466536Z From https://github.com/Waddenn/cicd-fil-rouge
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7468752Z  * [new ref]         8cdac98ba655cdffc296c2090381fdd791ec8904 -> origin/main
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7474008Z [command]/usr/bin/git branch --list --remote origin/main
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7501439Z   origin/main
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7507554Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7533091Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7537280Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7538366Z ##[group]Determining the checkout info
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7539681Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7540512Z [command]/usr/bin/git sparse-checkout disable
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.7889022Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8790167Z ##[group]Checking out the ref
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8793502Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.1164937Z Switched to a new branch 'main'
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.1177537Z branch 'main' set up to track 'origin/main'.
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.1184249Z ##[endgroup]
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.1230512Z [command]/usr/bin/git log -1 --format=%H
+lint	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.1257177Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:40.1470078Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1470400Z with:
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1470564Z   python-version: 3.13
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1470730Z   cache: pip
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1470945Z   cache-dependency-path: requirements.txt
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	requirements-dev.txt
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1471214Z   check-latest: false
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1472708Z   token: ***
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1472878Z   update-environment: true
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1473061Z   allow-prereleases: false
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1473234Z   freethreaded: false
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.1473425Z ##[endgroup]
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.2311429Z ##[group]Installed versions
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.2371084Z Successfully set up CPython (3.13.15)
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.2375262Z ##[endgroup]
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.2627826Z [command]/opt/hostedtoolcache/Python/3.13.15/x64/bin/pip cache dir
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5820952Z /home/runner/.cache/pip
+lint	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.8284409Z pip cache is not found
+lint	Run python -m pip install -r requirements-dev.txt	﻿2026-10-06T09:23:40.8464250Z ##[group]Run python -m pip install -r requirements-dev.txt
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8464628Z ^[[36;1mpython -m pip install -r requirements-dev.txt^[[0m
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8706565Z shell: /usr/bin/bash -e {0}
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8706823Z env:
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8707005Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8707275Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8707522Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8707797Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8708059Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8708279Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:40.8708499Z ##[endgroup]
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.5903987Z Collecting fastapi==0.115.6 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.6345331Z   Downloading fastapi-0.115.6-py3-none-any.whl.metadata (27 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.6656980Z Collecting uvicorn==0.32.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.6687030Z   Downloading uvicorn-0.32.1-py3-none-any.whl.metadata (6.6 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.6993673Z Collecting requests==2.25.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.7032158Z   Downloading requests-2.25.1-py2.py3-none-any.whl.metadata (4.2 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.7557872Z Collecting pytest==8.3.4 (from -r requirements-dev.txt (line 2))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.7604059Z   Downloading pytest-8.3.4-py3-none-any.whl.metadata (7.5 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.7819452Z Collecting httpx==0.28.1 (from -r requirements-dev.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:41.7851343Z   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.0322620Z Collecting ruff==0.8.4 (from -r requirements-dev.txt (line 4))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.0356915Z   Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.0603570Z Collecting starlette<0.42.0,>=0.40.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.0640401Z   Downloading starlette-0.41.3-py3-none-any.whl.metadata (6.0 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.1453075Z Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.1482969Z   Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.1845247Z Collecting typing-extensions>=4.8.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.1874059Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.2071226Z Collecting click>=7.0 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.2102643Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.2460435Z Collecting h11>=0.8 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.2488950Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.2801223Z Collecting chardet<5,>=3.0.2 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.2837602Z   Downloading chardet-4.0.0-py2.py3-none-any.whl.metadata (3.5 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.3095634Z Collecting idna<3,>=2.5 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.3125610Z   Downloading idna-2.10-py2.py3-none-any.whl.metadata (9.1 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.3345150Z Collecting urllib3<1.27,>=1.21.1 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.3376629Z   Downloading urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.3833624Z Collecting certifi>=2017.4.17 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.3865464Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.4060258Z Collecting iniconfig (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.4094489Z   Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.4607389Z Collecting packaging (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.4658491Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.4950903Z Collecting pluggy<2,>=1.5 (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.4985943Z   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.5384415Z Collecting anyio (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.5451015Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.5766935Z Collecting httpcore==1.* (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.5808420Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.6038224Z Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:42.6067692Z   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.0499012Z Collecting pydantic-core==2.46.5 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.0533996Z   Downloading pydantic_core-2.46.5-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.0703061Z Collecting typing-inspection>=0.4.2 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.0728856Z   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.1044809Z Downloading fastapi-0.115.6-py3-none-any.whl (94 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.1091705Z Downloading uvicorn-0.32.1-py3-none-any.whl (63 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.1136689Z Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.1184209Z Downloading pytest-8.3.4-py3-none-any.whl (343 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.1258732Z Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.1318967Z Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.2 MB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6271811Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 22.3 MB/s  0:00:00
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6305469Z Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6380461Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6424978Z Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6470298Z Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6512311Z Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6562989Z Downloading pydantic_core-2.46.5-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6646237Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 270.8 MB/s  0:00:00
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6674806Z Downloading starlette-0.41.3-py3-none-any.whl (73 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6947286Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.6992859Z Downloading urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7036972Z Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7077324Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7120263Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7169496Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7208684Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7249702Z Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7290843Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.7331123Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:43.8727555Z Installing collected packages: urllib3, typing-extensions, ruff, pluggy, packaging, iniconfig, idna, h11, click, chardet, certifi, annotated-types, uvicorn, typing-inspection, requests, pytest, pydantic-core, httpcore, anyio, starlette, pydantic, httpx, fastapi
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:45.4851645Z 
+lint	Run python -m pip install -r requirements-dev.txt	2026-10-06T09:23:45.4872169Z Successfully installed annotated-types-0.8.0 anyio-4.15.1 certifi-2026.7.22 chardet-4.0.0 click-8.5.0 fastapi-0.115.6 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-2.10 iniconfig-2.3.0 packaging-26.3 pluggy-1.6.0 pydantic-2.13.5 pydantic-core-2.46.5 pytest-8.3.4 requests-2.25.1 ruff-0.8.4 starlette-0.41.3 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-1.26.20 uvicorn-0.32.1
+lint	Run ruff check .	﻿2026-10-06T09:23:45.6687289Z ##[group]Run ruff check .
+lint	Run ruff check .	2026-10-06T09:23:45.6687490Z ^[[36;1mruff check .^[[0m
+lint	Run ruff check .	2026-10-06T09:23:45.6742078Z shell: /usr/bin/bash -e {0}
+lint	Run ruff check .	2026-10-06T09:23:45.6742236Z env:
+lint	Run ruff check .	2026-10-06T09:23:45.6742394Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff check .	2026-10-06T09:23:45.6742643Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+lint	Run ruff check .	2026-10-06T09:23:45.6742890Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff check .	2026-10-06T09:23:45.6743110Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff check .	2026-10-06T09:23:45.6743328Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff check .	2026-10-06T09:23:45.6743705Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+lint	Run ruff check .	2026-10-06T09:23:45.6743894Z ##[endgroup]
+lint	Run ruff check .	2026-10-06T09:23:45.6881460Z All checks passed!
+lint	Run ruff format --check .	﻿2026-10-06T09:23:45.6924738Z ##[group]Run ruff format --check .
+lint	Run ruff format --check .	2026-10-06T09:23:45.6924955Z ^[[36;1mruff format --check .^[[0m
+lint	Run ruff format --check .	2026-10-06T09:23:45.6980259Z shell: /usr/bin/bash -e {0}
+lint	Run ruff format --check .	2026-10-06T09:23:45.6980423Z env:
+lint	Run ruff format --check .	2026-10-06T09:23:45.6980595Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff format --check .	2026-10-06T09:23:45.6980853Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+lint	Run ruff format --check .	2026-10-06T09:23:45.6981099Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff format --check .	2026-10-06T09:23:45.6981331Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff format --check .	2026-10-06T09:23:45.6981562Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+lint	Run ruff format --check .	2026-10-06T09:23:45.6981791Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+lint	Run ruff format --check .	2026-10-06T09:23:45.6981981Z ##[endgroup]
+lint	Run ruff format --check .	2026-10-06T09:23:45.7128133Z 9 files already formatted
+lint	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:45.7213901Z Post job cleanup.
+lint	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:45.8173026Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/cicd-fil-rouge/cicd-fil-rouge --files-from manifest.txt --use-compress-program zstdmt
+lint	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:46.9978540Z Sent 18668724 of 18668724 (100.0%), 19.5 MBs/sec
+lint	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:47.2635847Z Cache saved with the key: setup-python-Linux-x64-24.04-Ubuntu-python-3.13.15-pip-0cc5f5eab56f1237ba4586eceac9729a233f92348fa5d801507e7755cbf34434
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:47.2753035Z Post job cleanup.
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3369837Z [command]/usr/bin/git version
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3409042Z git version 2.55.0
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3442164Z Temporarily overriding HOME='/home/runner/work/_temp/4217c526-56dc-417e-bfa1-77a179a7f329' before making global git config changes
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3442959Z Adding repository directory to the temporary git global config as a safe directory
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3445844Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3481960Z Removing SSH command configuration
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3488625Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3527275Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3745274Z Removing HTTP extra header
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3751597Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.3790240Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4009991Z Removing includeIf entries pointing to credentials config files
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4016301Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4215146Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4215802Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4216264Z includeif.gitdir:/github/workspace/.git.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4216590Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4225562Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4256148Z /home/runner/work/_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4265601Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-9a35947b\-8f5d\-4f91\-a042\-169425c77bcb\.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4307973Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4336231Z /home/runner/work/_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4350817Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-9a35947b\-8f5d\-4f91\-a042\-169425c77bcb\.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4414990Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4442165Z /github/runner_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4465968Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-9a35947b\-8f5d\-4f91\-a042\-169425c77bcb\.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4486654Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4513623Z /github/runner_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4522006Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-9a35947b\-8f5d\-4f91\-a042\-169425c77bcb\.config
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4561562Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+lint	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:47.4754149Z Removing credentials config '/home/runner/work/_temp/git-credentials-9a35947b-8f5d-4f91-a042-169425c77bcb.config'
+lint	Complete job	﻿2026-10-06T09:23:47.4889550Z Cleaning up orphan processes
+test (Python 3.13)	Set up job	﻿2026-10-06T09:23:38.9191356Z Current runner version: '2.337.0'
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9216848Z ##[group]Runner Image Provisioner
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9217757Z Hosted Compute Agent
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9218476Z Version: 20260901.588
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9219135Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9220047Z Build Date: 2026-09-01T19:56:44Z
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9220830Z Worker ID: {0b59a184-5f42-4b0a-a458-71026beb4984}
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9221551Z Azure Region: westus
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9222135Z ##[endgroup]
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9223799Z ##[group]Operating System
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9224448Z Ubuntu
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9225031Z 24.04.5
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9225564Z LTS
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9226137Z ##[endgroup]
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9226752Z ##[group]Runner Image
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9227363Z Image: ubuntu-24.04
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9227971Z Version: 20260927.320.1
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9229072Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9231125Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9232108Z ##[endgroup]
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9233636Z ##[group]GITHUB_TOKEN Permissions
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9235686Z Contents: read
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9236369Z Metadata: read
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9236953Z ##[endgroup]
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9238984Z Secret source: Actions
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9240371Z Cache mode: write
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9241095Z Prepare workflow directory
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9580582Z Prepare all required actions
+test (Python 3.13)	Set up job	2026-10-06T09:23:38.9629475Z Getting action download info
+test (Python 3.13)	Set up job	2026-10-06T09:23:39.3248010Z Download action repository 'actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1' (SHA:3d3c42e5aac5ba805825da76410c181273ba90b1)
+test (Python 3.13)	Set up job	2026-10-06T09:23:39.4369213Z Download action repository 'actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97' (SHA:5fda3b95a4ea91299a34e894583c3862153e4b97)
+test (Python 3.13)	Set up job	2026-10-06T09:23:39.5119243Z Download action repository 'actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02' (SHA:ea165f8d65b6e75b540449e92b4886f43607fa02)
+test (Python 3.13)	Set up job	2026-10-06T09:23:39.7258703Z Complete job name: test (Python 3.13)
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:39.8015379Z ##[group]Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8016485Z with:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8016943Z   repository: Waddenn/cicd-fil-rouge
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8021168Z   token: ***
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8021606Z   ssh-strict: true
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8022042Z   ssh-user: git
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8022494Z   persist-credentials: true
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8022986Z   clean: true
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8023479Z   sparse-checkout-cone-mode: true
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8024005Z   fetch-depth: 1
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8024434Z   fetch-tags: false
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8024890Z   show-progress: true
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8025337Z   lfs: false
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8025749Z   submodules: false
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8026199Z   set-safe-directory: true
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8026707Z   allow-unsafe-pr-checkout: false
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.8027530Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9072761Z Syncing repository: Waddenn/cicd-fil-rouge
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9075140Z ##[group]Getting Git version info
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9076199Z Working directory is '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9077445Z [command]/usr/bin/git version
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9162593Z git version 2.55.0
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9195357Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9202874Z Temporarily overriding HOME='/home/runner/work/_temp/fadf8fa8-2eb6-4b49-b35b-7ff31d9fa917' before making global git config changes
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9205249Z Adding repository directory to the temporary git global config as a safe directory
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9212994Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9259360Z Deleting the contents of '/home/runner/work/cicd-fil-rouge/cicd-fil-rouge'
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9263001Z ##[group]Determining repository object format
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9264914Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9266202Z ##[group]Initializing the repository
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9269058Z [command]/usr/bin/git init /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9373540Z hint: Using 'master' as the name for the initial branch. This default branch name
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9376668Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9378708Z hint: to use in all of your new repositories, which will suppress this warning,
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9380348Z hint: call:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9381257Z hint:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9382365Z hint: 	git config --global init.defaultBranch <name>
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9383643Z hint:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9384809Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9386493Z hint: 'development'. The just-created branch can be renamed via this command:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9388019Z hint:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9388943Z hint: 	git branch -m <name>
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9390707Z hint:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9392051Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9394651Z Initialized empty Git repository in /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9398175Z [command]/usr/bin/git remote add origin https://github.com/Waddenn/cicd-fil-rouge
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9433065Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9434391Z ##[group]Disabling automatic garbage collection
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9437221Z [command]/usr/bin/git config --local gc.auto 0
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9470602Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9471958Z ##[group]Setting up auth
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9477036Z Removing SSH command configuration
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9478341Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9517480Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9911351Z Removing HTTP extra header
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9923386Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:39.9967378Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0217604Z Removing includeIf entries pointing to credentials config files
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0223612Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0261684Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0522818Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0565123Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path /home/runner/work/_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0600345Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0642143Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0677943Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0725370Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0726148Z ##[group]Fetching the repository
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.0727488Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +8cdac98ba655cdffc296c2090381fdd791ec8904:refs/remotes/origin/main
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4510951Z From https://github.com/Waddenn/cicd-fil-rouge
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4512226Z  * [new ref]         8cdac98ba655cdffc296c2090381fdd791ec8904 -> origin/main
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4520637Z [command]/usr/bin/git branch --list --remote origin/main
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4550493Z   origin/main
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4558820Z [command]/usr/bin/git rev-parse refs/remotes/origin/main
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4586395Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4591291Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4592215Z ##[group]Determining the checkout info
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4593368Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4595539Z [command]/usr/bin/git sparse-checkout disable
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4647583Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4683305Z ##[group]Checking out the ref
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4687386Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4766935Z Switched to a new branch 'main'
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4772341Z branch 'main' set up to track 'origin/main'.
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4778566Z ##[endgroup]
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4824680Z [command]/usr/bin/git log -1 --format=%H
+test (Python 3.13)	Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:40.4854386Z 8cdac98ba655cdffc296c2090381fdd791ec8904
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:40.5136590Z ##[group]Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5137401Z with:
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5137823Z   python-version: 3.13
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5138286Z   cache: pip
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5138859Z   cache-dependency-path: requirements.txt
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	requirements-dev.txt
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5139572Z   check-latest: false
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5143596Z   token: ***
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5144043Z   update-environment: true
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5144542Z   allow-prereleases: false
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5145029Z   freethreaded: false
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.5145469Z ##[endgroup]
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.6361512Z ##[group]Installed versions
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.6436235Z Successfully set up CPython (3.13.15)
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.6437920Z ##[endgroup]
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:40.6886053Z [command]/opt/hostedtoolcache/Python/3.13.15/x64/bin/pip cache dir
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:42.5596714Z /home/runner/.cache/pip
+test (Python 3.13)	Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:42.8411790Z pip cache is not found
+test (Python 3.13)	Installer les dépendances	﻿2026-10-06T09:23:42.8561113Z ##[group]Run started=$SECONDS
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8561562Z ^[[36;1mstarted=$SECONDS^[[0m
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8561938Z ^[[36;1mpython -m pip install -r requirements-dev.txt^[[0m
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8562503Z ^[[36;1mecho "Installation Python 3.13 : $((SECONDS - started)) s" >> "$GITHUB_STEP_SUMMARY"^[[0m
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8813606Z shell: /usr/bin/bash -e {0}
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8813977Z env:
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8814301Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8814815Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8815301Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8815779Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8816227Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8816662Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:42.8817033Z ##[endgroup]
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.0874778Z Collecting fastapi==0.115.6 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.1349331Z   Downloading fastapi-0.115.6-py3-none-any.whl.metadata (27 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.1668127Z Collecting uvicorn==0.32.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.1700877Z   Downloading uvicorn-0.32.1-py3-none-any.whl.metadata (6.6 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.1926784Z Collecting requests==2.25.1 (from -r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.1967512Z   Downloading requests-2.25.1-py2.py3-none-any.whl.metadata (4.2 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.2230176Z Collecting pytest==8.3.4 (from -r requirements-dev.txt (line 2))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.2260585Z   Downloading pytest-8.3.4-py3-none-any.whl.metadata (7.5 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.2420521Z Collecting httpx==0.28.1 (from -r requirements-dev.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.2450811Z   Downloading httpx-0.28.1-py3-none-any.whl.metadata (7.1 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.5592983Z Collecting ruff==0.8.4 (from -r requirements-dev.txt (line 4))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.5640720Z   Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (25 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.5891495Z Collecting starlette<0.42.0,>=0.40.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.5926207Z   Downloading starlette-0.41.3-py3-none-any.whl.metadata (6.0 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.6946920Z Collecting pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.6981015Z   Downloading pydantic-2.13.5-py3-none-any.whl.metadata (110 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.7230704Z Collecting typing-extensions>=4.8.0 (from fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.7260108Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.7453974Z Collecting click>=7.0 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.7482356Z   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.7642453Z Collecting h11>=0.8 (from uvicorn==0.32.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 2))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.7673467Z   Downloading h11-0.16.0-py3-none-any.whl.metadata (8.3 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.7993633Z Collecting chardet<5,>=3.0.2 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8026814Z   Downloading chardet-4.0.0-py2.py3-none-any.whl.metadata (3.5 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8150237Z Collecting idna<3,>=2.5 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8178759Z   Downloading idna-2.10-py2.py3-none-any.whl.metadata (9.1 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8387549Z Collecting urllib3<1.27,>=1.21.1 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8426388Z   Downloading urllib3-1.26.20-py2.py3-none-any.whl.metadata (50 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8644446Z Collecting certifi>=2017.4.17 (from requests==2.25.1->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8673675Z   Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8774141Z Collecting iniconfig (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8810367Z   Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8962038Z Collecting packaging (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.8990224Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9102705Z Collecting pluggy<2,>=1.5 (from pytest==8.3.4->-r requirements-dev.txt (line 2))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9135187Z   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9323730Z Collecting anyio (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9355757Z   Downloading anyio-4.15.1-py3-none-any.whl.metadata (4.7 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9505125Z Collecting httpcore==1.* (from httpx==0.28.1->-r requirements-dev.txt (line 3))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9535222Z   Downloading httpcore-1.0.9-py3-none-any.whl.metadata (21 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9684691Z Collecting annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:44.9717619Z   Downloading annotated_types-0.8.0-py3-none-any.whl.metadata (15 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.5765418Z Collecting pydantic-core==2.46.5 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.5803189Z   Downloading pydantic_core-2.46.5-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.6 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.5911435Z Collecting typing-inspection>=0.4.2 (from pydantic!=1.8,!=1.8.1,!=2.0.0,!=2.0.1,!=2.1.0,<3.0.0,>=1.7.4->fastapi==0.115.6->-r /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/requirements.txt (line 1))
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.5939974Z   Downloading typing_inspection-0.4.4-py3-none-any.whl.metadata (2.6 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.6101625Z Downloading fastapi-0.115.6-py3-none-any.whl (94 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.6209172Z Downloading uvicorn-0.32.1-py3-none-any.whl (63 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.6263844Z Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.6313321Z Downloading pytest-8.3.4-py3-none-any.whl (343 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.6383507Z Downloading httpx-0.28.1-py3-none-any.whl (73 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.6502623Z Downloading ruff-0.8.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.2 MB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7039116Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 221.9 MB/s  0:00:00
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7103766Z Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7156360Z Downloading httpcore-1.0.9-py3-none-any.whl (78 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7207376Z Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7257095Z Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7321381Z Downloading pydantic-2.13.5-py3-none-any.whl (472 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7384802Z Downloading pydantic_core-2.46.5-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.1 MB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7471500Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 283.5 MB/s  0:00:00
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7500520Z Downloading starlette-0.41.3-py3-none-any.whl (73 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7549625Z Downloading anyio-4.15.1-py3-none-any.whl (132 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7601933Z Downloading urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7656509Z Downloading annotated_types-0.8.0-py3-none-any.whl (13 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7703893Z Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7757537Z Downloading click-8.5.0-py3-none-any.whl (125 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7806887Z Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7857432Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7903447Z Downloading typing_inspection-0.4.4-py3-none-any.whl (14 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7951716Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:45.7999692Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:46.1415511Z Installing collected packages: urllib3, typing-extensions, ruff, pluggy, packaging, iniconfig, idna, h11, click, chardet, certifi, annotated-types, uvicorn, typing-inspection, requests, pytest, pydantic-core, httpcore, anyio, starlette, pydantic, httpx, fastapi
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:47.9863658Z 
+test (Python 3.13)	Installer les dépendances	2026-10-06T09:23:47.9893030Z Successfully installed annotated-types-0.8.0 anyio-4.15.1 certifi-2026.7.22 chardet-4.0.0 click-8.5.0 fastapi-0.115.6 h11-0.16.0 httpcore-1.0.9 httpx-0.28.1 idna-2.10 iniconfig-2.3.0 packaging-26.3 pluggy-1.6.0 pydantic-2.13.5 pydantic-core-2.46.5 pytest-8.3.4 requests-2.25.1 ruff-0.8.4 starlette-0.41.3 typing-extensions-4.16.0 typing-inspection-0.4.4 urllib3-1.26.20 uvicorn-0.32.1
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	﻿2026-10-06T09:23:48.0880749Z ##[group]Run python -m pytest --junitxml=reports/junit.xml
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0881237Z ^[[36;1mpython -m pytest --junitxml=reports/junit.xml^[[0m
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0946281Z shell: /usr/bin/bash -e {0}
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0946545Z env:
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0946969Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0947418Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0947863Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0948270Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0948669Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0949054Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:48.0949383Z ##[endgroup]
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6153117Z ============================= test session starts ==============================
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6154335Z platform linux -- Python 3.13.15, pytest-8.3.4, pluggy-1.6.0
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6155147Z rootdir: /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6155856Z configfile: pyproject.toml
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6156287Z testpaths: tests
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6156674Z plugins: anyio-4.15.1
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6157078Z collected 9 items
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6157300Z 
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.6507218Z tests/test_health.py .                                                   [ 11%]
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7147440Z tests/test_tasks.py ........                                             [100%]
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7147901Z 
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7148085Z =============================== warnings summary ===============================
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7148776Z ../../../../../opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/starlette/testclient.py:40
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7150337Z   /opt/hostedtoolcache/Python/3.13.15/x64/lib/python3.13/site-packages/starlette/testclient.py:40: DeprecationWarning: The anyio.abc.BlockingPortal alias is deprecated, use anyio.from_thread.BlockingPortal instead.
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7151683Z     _PortalFactoryType = typing.Callable[[], typing.ContextManager[anyio.abc.BlockingPortal]]
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7152140Z 
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7152396Z -- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7153108Z - generated xml file: /home/runner/work/cicd-fil-rouge/cicd-fil-rouge/reports/junit.xml -
+test (Python 3.13)	Run python -m pytest --junitxml=reports/junit.xml	2026-10-06T09:23:49.7153724Z ========================= 9 passed, 1 warning in 0.12s =========================
+test (Python 3.13)	Conserver le rapport de tests	﻿2026-10-06T09:23:49.7827295Z ##[group]Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7827910Z with:
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7828200Z   name: pytest-3.13
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7828425Z   path: reports/junit.xml
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7828661Z   if-no-files-found: error
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7828882Z   retention-days: 14
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7829094Z   compression-level: 6
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7829303Z   overwrite: false
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7829509Z   include-hidden-files: false
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7829738Z env:
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7830218Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7830660Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib/pkgconfig
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7831099Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7831475Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7831855Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.15/x64
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7832238Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.15/x64/lib
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.7832586Z ##[endgroup]
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.9484887Z (node:2355) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.9485769Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.9552941Z With the provided path, there will be 1 file uploaded
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.9556401Z Artifact name is valid!
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:49.9557687Z Root directory input is valid!
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.3371567Z Beginning upload of artifact content to blob storage
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.3557170Z (node:2355) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.6265034Z Uploaded bytes 451
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.7021834Z Finished uploading artifact content to blob storage!
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.7022840Z SHA256 digest of uploaded artifact zip is ffe07c4fb814e087613933c44b51cc7b35e3f38fd4b1917359f1ff5798530cf8
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.7023695Z Finalizing artifact upload
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.9546621Z Artifact pytest-3.13.zip successfully finalized. Artifact ID 11402016082
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.9548000Z Artifact pytest-3.13 has been successfully uploaded! Final size is 451 bytes. Artifact ID is 11402016082
+test (Python 3.13)	Conserver le rapport de tests	2026-10-06T09:23:50.9555542Z Artifact download URL: https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37442392450/artifacts/11402016082
+test (Python 3.13)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	﻿2026-10-06T09:23:50.9738121Z Post job cleanup.
+test (Python 3.13)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:51.1070868Z [command]/usr/bin/tar --posix -cf cache.tzst --exclude cache.tzst -P -C /home/runner/work/cicd-fil-rouge/cicd-fil-rouge --files-from manifest.txt --use-compress-program zstdmt
+test (Python 3.13)	Post Run actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97	2026-10-06T09:23:51.4227504Z Failed to save: Unable to reserve cache with key setup-python-Linux-x64-24.04-Ubuntu-python-3.13.15-pip-0cc5f5eab56f1237ba4586eceac9729a233f92348fa5d801507e7755cbf34434, another job may be creating this cache.
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	﻿2026-10-06T09:23:51.4396876Z Post job cleanup.
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5223467Z [command]/usr/bin/git version
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5279583Z git version 2.55.0
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5318371Z Temporarily overriding HOME='/home/runner/work/_temp/f1471075-7f85-4917-8a3c-32f2b0abbc09' before making global git config changes
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5319687Z Adding repository directory to the temporary git global config as a safe directory
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5325111Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/cicd-fil-rouge/cicd-fil-rouge
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5360030Z Removing SSH command configuration
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5366625Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5405900Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5657125Z Removing HTTP extra header
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5663185Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5708682Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5968713Z Removing includeIf entries pointing to credentials config files
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.5979073Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6008810Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6010297Z includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6011459Z includeif.gitdir:/github/workspace/.git.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6012340Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6018993Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6046068Z /home/runner/work/_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6056961Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git.path \/home\/runner\/work\/_temp\/git\-credentials\-07866eb4\-9294\-4e44\-a2e7\-8ed764befa15\.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6104560Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6133352Z /home/runner/work/_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6142918Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/cicd-fil-rouge/cicd-fil-rouge/.git/worktrees/*.path \/home\/runner\/work\/_temp\/git\-credentials\-07866eb4\-9294\-4e44\-a2e7\-8ed764befa15\.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6193217Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6223197Z /github/runner_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6228559Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path \/github\/runner_temp\/git\-credentials\-07866eb4\-9294\-4e44\-a2e7\-8ed764befa15\.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6266011Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6292138Z /github/runner_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6300883Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path \/github\/runner_temp\/git\-credentials\-07866eb4\-9294\-4e44\-a2e7\-8ed764befa15\.config
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6342254Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test (Python 3.13)	Post Run actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1	2026-10-06T09:23:51.6586412Z Removing credentials config '/home/runner/work/_temp/git-credentials-07866eb4-9294-4e44-a2e7-8ed764befa15.config'
+test (Python 3.13)	Complete job	﻿2026-10-06T09:23:51.6731320Z Cleaning up orphan processes
+test (Python 3.13)	Complete job	2026-10-06T09:23:51.7003809Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+CI OK	Set up job	﻿2026-10-06T09:23:56.9377703Z Current runner version: '2.337.0'
+CI OK	Set up job	2026-10-06T09:23:56.9412562Z ##[group]Runner Image Provisioner
+CI OK	Set up job	2026-10-06T09:23:56.9413646Z Hosted Compute Agent
+CI OK	Set up job	2026-10-06T09:23:56.9414406Z Version: 20260901.588
+CI OK	Set up job	2026-10-06T09:23:56.9415087Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+CI OK	Set up job	2026-10-06T09:23:56.9415838Z Build Date: 2026-09-01T19:56:44Z
+CI OK	Set up job	2026-10-06T09:23:56.9416679Z Worker ID: {242a96dd-8eef-44d9-b144-3d8749365445}
+CI OK	Set up job	2026-10-06T09:23:56.9417465Z Azure Region: northcentralus
+CI OK	Set up job	2026-10-06T09:23:56.9418149Z ##[endgroup]
+CI OK	Set up job	2026-10-06T09:23:56.9419629Z ##[group]Operating System
+CI OK	Set up job	2026-10-06T09:23:56.9420295Z Ubuntu
+CI OK	Set up job	2026-10-06T09:23:56.9420956Z 24.04.5
+CI OK	Set up job	2026-10-06T09:23:56.9421503Z LTS
+CI OK	Set up job	2026-10-06T09:23:56.9422354Z ##[endgroup]
+CI OK	Set up job	2026-10-06T09:23:56.9422951Z ##[group]Runner Image
+CI OK	Set up job	2026-10-06T09:23:56.9423584Z Image: ubuntu-24.04
+CI OK	Set up job	2026-10-06T09:23:56.9424268Z Version: 20260927.320.1
+CI OK	Set up job	2026-10-06T09:23:56.9425373Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260927.320/images/ubuntu/Ubuntu2404-Readme.md
+CI OK	Set up job	2026-10-06T09:23:56.9427253Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260927.320
+CI OK	Set up job	2026-10-06T09:23:56.9428263Z ##[endgroup]
+CI OK	Set up job	2026-10-06T09:23:56.9429455Z ##[group]GITHUB_TOKEN Permissions
+CI OK	Set up job	2026-10-06T09:23:56.9431368Z Contents: read
+CI OK	Set up job	2026-10-06T09:23:56.9432339Z Metadata: read
+CI OK	Set up job	2026-10-06T09:23:56.9432948Z ##[endgroup]
+CI OK	Set up job	2026-10-06T09:23:56.9435481Z Secret source: Actions
+CI OK	Set up job	2026-10-06T09:23:56.9436598Z Cache mode: write
+CI OK	Set up job	2026-10-06T09:23:56.9437476Z Prepare workflow directory
+CI OK	Set up job	2026-10-06T09:23:56.9826027Z Prepare all required actions
+CI OK	Set up job	2026-10-06T09:23:56.9967509Z Complete job name: CI OK
+CI OK	Exiger la réussite de tous les jobs	﻿2026-10-06T09:23:57.0939622Z ##[group]Run test "$LINT_RESULT" = success && test "$TEST_RESULT" = success
+CI OK	Exiger la réussite de tous les jobs	2026-10-06T09:23:57.0940797Z ^[[36;1mtest "$LINT_RESULT" = success && test "$TEST_RESULT" = success^[[0m
+CI OK	Exiger la réussite de tous les jobs	2026-10-06T09:23:57.1995776Z shell: /usr/bin/bash -e {0}
+CI OK	Exiger la réussite de tous les jobs	2026-10-06T09:23:57.1996736Z env:
+CI OK	Exiger la réussite de tous les jobs	2026-10-06T09:23:57.1997500Z   LINT_RESULT: success
+CI OK	Exiger la réussite de tous les jobs	2026-10-06T09:23:57.1998135Z   TEST_RESULT: success
+CI OK	Exiger la réussite de tous les jobs	2026-10-06T09:23:57.1998822Z ##[endgroup]
+CI OK	Complete job	﻿2026-10-06T09:23:57.2367452Z Cleaning up orphan processes
