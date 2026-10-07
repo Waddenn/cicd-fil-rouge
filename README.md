@@ -4,6 +4,8 @@
 
 Lab J1 — cours CI/CD, Sup de Vinci. API de tâches en Python/FastAPI, issue du [dépôt de l’intervenant](https://github.com/hardymil/cicd-fil-rouge).
 
+**Équipe :** [Tom PATELAS](https://github.com/Waddenn) et [Nicolas ROULOIS](https://github.com/Niccoco78).
+
 **Objectif : empêcher qu’un changement non relu ou qui casse les tests arrive sur `main`.**
 
 | Ce qui a été vérifié | Résultat et preuve |
