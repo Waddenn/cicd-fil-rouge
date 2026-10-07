@@ -54,6 +54,11 @@ docker run --rm -p 8000:8000 taskflow
 | `API_TOKEN` | Jeton exigé pour supprimer une tâche | vide (suppression désactivée) |
 | `NOTIFY_WEBHOOK_URL` | Webhook appelé à chaque création de tâche | vide (désactivé) |
 
+## Équipe
+
+- Tom PATELAS ([@Waddenn](https://github.com/Waddenn))
+- Nicolas ROULOIS ([@Niccoco78](https://github.com/Niccoco78))
+
 ## Gouvernance du dépôt
 
 La [protection de main](https://github.com/Waddenn/cicd-fil-rouge/rules) est active :
