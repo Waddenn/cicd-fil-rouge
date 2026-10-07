@@ -76,22 +76,7 @@ Durée de l’installation sur le même commit (`8cdac98`), avec des runners neu
 [Run sans cache](https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37442392450/attempts/2) · [Run avec cache](https://github.com/Waddenn/cicd-fil-rouge/actions/runs/37442392450/attempts/3).
 Une seule comparaison, hors temps de restauration : le cache aide sur deux versions, sans garantir un gain à chaque run.
 
-## Exercices — les idées à retenir
-
-| Situation | Réponse et raison |
-| --- | --- |
-| Tests sur PR, copie FTP le vendredi | CI si intégrations fréquentes ; livraison encore manuelle |
-| Image testée en staging, bouton du PO | **Continuous Delivery** : production déclenchée par une personne |
-| Merge sur `main`, tests puis production automatique | **Continuous Deployment** |
-| Jenkins mais branches de trois semaines | Pas de véritable CI : intégrations trop rares |
-| Livraison automatisée, validation d’un comité | **Continuous Delivery** : décision humaine finale |
-| Production automatique sans tests | Automatisation sans chaîne CI/CD fiable |
-
-**Comment déployer le code relu ?** Associer le build au commit approuvé, construire une fois et promouvoir le même artefact immuable, identifié par son digest.
-
-**Hash ou signature ?** Le hash permet de détecter une modification ; il ne protège pas l’historique et n’identifie pas l’auteur. La signature prouve la possession d’une clé, dont l’identité doit être vérifiée.
-
-[Réponses détaillées](docs/exercices-j1.md) · [Déroulé et preuves des labs](docs/labs-github.md)
+[Déroulé et preuves des labs](docs/labs-github.md)
 
 <details>
 <summary><strong>Reproduire : installation, commandes et API</strong></summary>
