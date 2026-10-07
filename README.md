@@ -9,6 +9,8 @@ API de gestion de tâches en Python avec FastAPI. Projet du cours CI/CD M1 à Su
 Prérequis : Python 3.10 ou plus récent.
 
 ```bash
+git clone https://github.com/Waddenn/cicd-fil-rouge.git
+cd cicd-fil-rouge
 python3 -m venv .venv
 source .venv/bin/activate          # Windows : .venv\Scripts\activate
 pip install -r requirements-dev.txt
@@ -21,9 +23,9 @@ http://localhost:8000/docs.
 ## Vérifier le code
 
 ```bash
-pytest           # tests automatiques
-ruff check .     # lint
-ruff format .    # mise en forme
+pytest                 # tests automatiques
+ruff check .           # lint
+ruff format --check .  # vérification du formatage
 ```
 
 ## Lancer avec Docker
@@ -56,13 +58,12 @@ docker run --rm -p 8000:8000 taskflow
 
 ## Gouvernance du dépôt
 
-La [protection de main](https://github.com/Waddenn/cicd-fil-rouge/rules) est active :
+La branche [main est protégée](https://github.com/Waddenn/cicd-fil-rouge/rules) :
 
-- PR et une approbation obligatoires pour relire les changements avant le merge.
-- Nouvelle approbation après un ajout de commit, pour valider la dernière version.
-- Revue des Code Owners sur les workflows, pour contrôler les modifications de la CI.
-- Force push et suppression de `main` interdits, sans exception pour les admins.
-- Discussions résolues, branche à jour et check `CI OK` vert avant le merge.
+- Une PR approuvée, à jour et avec `CI OK` vert est nécessaire pour fusionner.
+- Un nouveau commit demande une nouvelle approbation ; les discussions doivent être résolues.
+- Les changements de workflows passent aussi par les Code Owners.
+- Push direct, force push et suppression de `main` sont bloqués, y compris pour les admins.
 
 Le push direct a été refusé par GitHub. [Sortie de la commande](reports/github/push-refuse.txt).
 
